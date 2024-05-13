@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="newsAroundCognizant.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="TestonChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://be.cognizant.com"/>
+    <classes>
+      <class name="testCases.TestBeCognizant">
+        <methods>
+          <include name="AroundCognizant"/>
+          <include name="seeAllNaviagtion"/>
+          <include name="testUser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testUserDetails"/>
+        </methods>
+      </class> <!-- testCases.TestBeCognizant -->
+    </classes>
+  </test> <!-- TestonChrome(failed) -->
+  <test thread-count="5" parallel="tests" name="TestonEdge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://be.cognizant.com"/>
+    <classes>
+      <class name="testCases.TestBeCognizant">
+        <methods>
+          <include name="AroundCognizant"/>
+          <include name="seeAllNaviagtion"/>
+          <include name="testUser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testUserDetails"/>
+        </methods>
+      </class> <!-- testCases.TestBeCognizant -->
+    </classes>
+  </test> <!-- TestonEdge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

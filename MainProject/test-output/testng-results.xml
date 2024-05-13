@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-30T11:15:19 IST" name="Suite" finished-at="2024-04-30T11:16:58 IST" duration-ms="99172">
+    <groups>
+    </groups>
+    <test started-at="2024-04-30T11:15:19 IST" name="TestonEdge" finished-at="2024-04-30T11:16:56 IST" duration-ms="96714">
+      <class name="testCases.TestBeCognizant">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:19 IST" name="setUp" finished-at="2024-04-30T11:15:39 IST" duration-ms="19929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://be.cognizant.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUser()[pri:1, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:39 IST" name="testUser" finished-at="2024-04-30T11:15:43 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method signature="testUserDetails()[pri:2, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:43 IST" name="testUserDetails" finished-at="2024-04-30T11:15:48 IST" depends-on-methods="testCases.TestBeCognizant.testUser" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetails -->
+        <test-method signature="AroundCognizant()[pri:3, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:48 IST" name="AroundCognizant" finished-at="2024-04-30T11:15:51 IST" depends-on-methods="testCases.TestBeCognizant.testUserDetails" duration-ms="3036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AroundCognizant -->
+        <test-method signature="seeAllNaviagtion()[pri:4, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:51 IST" name="seeAllNaviagtion" finished-at="2024-04-30T11:15:57 IST" duration-ms="6060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNaviagtion -->
+        <test-method signature="seeAllNewsHeader()[pri:5, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:15:57 IST" name="seeAllNewsHeader" finished-at="2024-04-30T11:16:51 IST" duration-ms="53328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNewsHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestBeCognizant@7bd7d6d6]" started-at="2024-04-30T11:16:51 IST" name="tearDown" finished-at="2024-04-30T11:16:56 IST" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestBeCognizant -->
+    </test> <!-- TestonEdge -->
+    <test started-at="2024-04-30T11:15:19 IST" name="TestonChrome" finished-at="2024-04-30T11:16:58 IST" duration-ms="99172">
+      <class name="testCases.TestBeCognizant">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:15:19 IST" name="setUp" finished-at="2024-04-30T11:15:43 IST" duration-ms="23939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://be.cognizant.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUser()[pri:1, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:15:43 IST" name="testUser" finished-at="2024-04-30T11:15:47 IST" duration-ms="3334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method signature="testUserDetails()[pri:2, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:15:47 IST" name="testUserDetails" finished-at="2024-04-30T11:15:52 IST" depends-on-methods="testCases.TestBeCognizant.testUser" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetails -->
+        <test-method signature="AroundCognizant()[pri:3, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:15:52 IST" name="AroundCognizant" finished-at="2024-04-30T11:15:55 IST" depends-on-methods="testCases.TestBeCognizant.testUserDetails" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AroundCognizant -->
+        <test-method signature="seeAllNaviagtion()[pri:4, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:15:55 IST" name="seeAllNaviagtion" finished-at="2024-04-30T11:16:00 IST" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNaviagtion -->
+        <test-method signature="seeAllNewsHeader()[pri:5, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:16:00 IST" name="seeAllNewsHeader" finished-at="2024-04-30T11:16:53 IST" duration-ms="52807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNewsHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestBeCognizant@6fa51cd4]" started-at="2024-04-30T11:16:53 IST" name="tearDown" finished-at="2024-04-30T11:16:58 IST" duration-ms="5444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestBeCognizant -->
+    </test> <!-- TestonChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
